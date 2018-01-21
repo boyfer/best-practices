@@ -39,3 +39,12 @@
 
   - https://mvnrepository.com/artifact/org.json/json
   - https://github.com/FasterXML/jackson
+
+* As soon as there are examples of simple codes (or codenames) as primary keys, I'm gonna go for it. Saves a lot of work/time in development and much more elegant. One of the links suggest that the terms is called abbreviated encoding or Celko's encoding. But there is one more thing. It should be kept as small as possible, 3 characters at most (for performance reasons.)
+
+  - https://www.red-gate.com/simple-talk/sql/database-administration/five-simple-database-design-errors-you-should-avoid/
+  - https://stackoverflow.com/questions/337503/whats-the-best-practice-for-primary-keys-in-tables
+  - https://www.techrepublic.com/blog/10-things/10-tips-for-choosing-between-a-surrogate-and-natural-primary-key/
+  - http://www.itprotoday.com/business-intelligence/surrogate-key-vs-natural-key
+  - https://dba.stackexchange.com/questions/142825/what-are-the-best-practices-regarding-lookup-tables-in-relational-databases/142841#142841
+  - https://stackoverflow.com/questions/4824024/how-important-are-lookup-tables/4824718#4824718
