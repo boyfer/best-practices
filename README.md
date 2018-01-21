@@ -14,3 +14,7 @@ https://security.stackexchange.com/questions/107337/reviews-of-argon2
 https://docs.spring.io/spring-security/site/docs/5.0.0.RELEASE/api/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.html
 https://docs.spring.io/spring-security/site/docs/5.0.0.RELEASE/api/org/springframework/security/crypto/scrypt/SCryptPasswordEncoder.html
 
+* Two great sql style guides (or naming conventions) are below. First one seems derived by PostgreSQL:
+
+https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions/
+http://www.sqlstyle.guide/
