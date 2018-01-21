@@ -1,9 +1,11 @@
 # best-practices - (Java / PostgreSQL / Spring / Hibernate)
 
 * "To address these difficulties, we recommend using date/time types that contain both date and time when using time zones. We do not recommend using the type time with time zone (though it is supported by PostgreSQL for legacy applications and for compliance with the SQL standard)".
+
 https://www.postgresql.org/docs/current/static/datatype-datetime.html#DATATYPE-TIMEZONES
 
 Further reading for date/time types:
+
 http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
 http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
 
@@ -22,3 +24,7 @@ http://www.sqlstyle.guide/
 * Latest stable version of Spring Boot (1.5.9) doesn't support Java 9. It will be supported with Spring Boot 2.0 but it's still in progress:
 
 https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-with-Java-9
+
+* "The @Transactional annotation is metadata that specifies that an interface, class, or method must have transactional semantics". It still needs to be tested to see if I use it correctly:
+
+https://docs.spring.io/spring/docs/5.0.2.RELEASE/spring-framework-reference/data-access.html#transaction-declarative-attransactional-settings
