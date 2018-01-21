@@ -34,3 +34,8 @@
   - https://softwareengineering.stackexchange.com/questions/118489/does-it-make-sense-to-standardize-including-a-created-date-and-last-updated-date
   - https://stackoverflow.com/questions/38916063/add-timestamp-column-with-default-now-for-new-rows-only
   - https://x-team.com/blog/automatic-timestamps-with-postgresql/
+
+* The most common starting points for JSON:
+
+  - https://mvnrepository.com/artifact/org.json/json
+  - https://github.com/FasterXML/jackson
