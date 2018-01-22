@@ -99,3 +99,19 @@
   - **recordService.getReport** => This method can also be changed as "report"
   
   As you can see above "get" would be much more elegant instead of "getRecordById". Standard REST service endpoints should have standard method names. Same goes with "getReport".
+  
+* JSON properties should have camelCase as it is told in REST conventions. The below code sample from jogtracker is WRONG!
+
+```
+	@JsonProperty("id")
+	private Integer recordId;
+	
+	@JsonProperty("user_id")
+	private Integer userId;
+	
+	@JsonProperty("air_temp")
+	private Double airTemp;
+	
+	@JsonProperty("rel_temp")
+	private Double relTemp;	
+```
