@@ -80,3 +80,12 @@
   - http://udidahan.com/2009/09/01/dont-delete-just-dont/ (Advocating soft delete)
   - http://jameshalsall.co.uk/posts/why-soft-deletes-are-evil-and-what-to-do-instead (Advocating hard delete)
   - https://www.thoughts-on-java.org/implement-soft-delete-hibernate/ (Soft delete Hibernate implementation - might be useful though)
+  
+* Packaging by features instead of layers is the common practice:
+
+  - http://www.javapractices.com/topic/TopicAction.do?Id=205
+  - https://hackernoon.com/package-by-features-not-layers-2d076df1964d
+  - https://dzone.com/articles/package-your-classes-feature
+  - http://tidyjava.com/package-feature-demanded/
+  - https://stackoverflow.com/questions/11733267/is-package-by-feature-approach-good
+  - https://softwareengineering.stackexchange.com/questions/351216/if-i-package-by-feature-but-have-many-homogeneous-classes-what-is-preferable
