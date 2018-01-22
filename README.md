@@ -48,3 +48,17 @@
   - http://www.itprotoday.com/business-intelligence/surrogate-key-vs-natural-key
   - https://dba.stackexchange.com/questions/142825/what-are-the-best-practices-regarding-lookup-tables-in-relational-databases/142841#142841
   - https://stackoverflow.com/questions/4824024/how-important-are-lookup-tables/4824718#4824718
+   
+* There is a consensus about RESTful APIs in the coomunity, except the API versioning. Here are links:
+
+  - https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
+  - https://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/
+  - https://www.snyxius.com/21-best-practices-designing-launching-restful-api/
+  - http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+  - https://github.com/RestCheatSheet/api-cheat-sheet#api-design-cheat-sheet
+  - https://medium.com/@schneidenbach/restful-api-best-practices-and-common-pitfalls-7a83ba3763b5
+  
+  Further reading on REST:
+  
+  - http://www.restapitutorial.com/resources.html
+  - https://github.com/RestCheatSheet
