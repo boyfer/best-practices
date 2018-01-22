@@ -63,3 +63,12 @@
   
   - http://www.restapitutorial.com/resources.html
   - https://github.com/RestCheatSheet
+
+* The choice between UUID vs Auto Increment really depends on the application. Some people defend UUID, dismiss auto-increment and some people do the opposite. There is no consensus on this topic. Some argumentation here:
+
+  - https://dba.stackexchange.com/questions/91669/primary-key-auto-increment-best-practices
+  - https://softwareengineering.stackexchange.com/questions/328458/is-it-good-practice-to-always-have-an-autoincrement-integer-primary-key
+  - https://stackoverflow.com/questions/404040/how-do-you-like-your-primary-keys
+  - https://www.experts-exchange.com/questions/21308273/auto-increment-columns-and-best-practice.html
+  - https://medium.com/@Mareks_082/auto-increment-keys-vs-uuid-a74d81f7476a
+  - https://www.clever-cloud.com/blog/engineering/2015/05/20/why-auto-increment-is-a-terrible-idea/
