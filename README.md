@@ -48,6 +48,7 @@
   - http://www.itprotoday.com/business-intelligence/surrogate-key-vs-natural-key
   - https://dba.stackexchange.com/questions/142825/what-are-the-best-practices-regarding-lookup-tables-in-relational-databases/142841#142841
   - https://stackoverflow.com/questions/4824024/how-important-are-lookup-tables/4824718#4824718
+  - https://dba.stackexchange.com/questions/6108/should-every-table-have-a-single-field-surrogate-artificial-primary-key
    
 * There is a consensus about RESTful APIs in the coomunity, except the API versioning. Here are links:
 
