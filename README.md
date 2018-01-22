@@ -72,3 +72,11 @@
   - https://www.experts-exchange.com/questions/21308273/auto-increment-columns-and-best-practice.html
   - https://medium.com/@Mareks_082/auto-increment-keys-vs-uuid-a74d81f7476a
   - https://www.clever-cloud.com/blog/engineering/2015/05/20/why-auto-increment-is-a-terrible-idea/
+  
+* In my opinion, the choice between soft delete vs hard delete really depends on the column. If it is a user table, then yes. Soft delete makes a lot of sense. But if it is like a "record" column in "jogtracker" application then hard delete should be sufficient. There is no reason to store incorrect rows inserted by the user itself. There is a lot of debate as usual on this topic.
+
+  - https://stackoverflow.com/questions/378331/physical-vs-logical-soft-delete-of-database-record (Second answer is great.)
+  - http://abstraction.blog/2015/06/28/soft-vs-hard-delete (Nice comparison)
+  - http://udidahan.com/2009/09/01/dont-delete-just-dont/ (Advocating soft delete)
+  - http://jameshalsall.co.uk/posts/why-soft-deletes-are-evil-and-what-to-do-instead (Advocating hard delete)
+  - https://www.thoughts-on-java.org/implement-soft-delete-hibernate/ (Soft delete Hibernate implementation - might be useful though)
