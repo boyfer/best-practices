@@ -57,7 +57,7 @@
   - https://www.snyxius.com/21-best-practices-designing-launching-restful-api/
   - http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
   - https://github.com/RestCheatSheet/api-cheat-sheet#api-design-cheat-sheet
-  - https://medium.com/@schneidenbach/restful-api-best-practices-and-common-pitfalls-7a83ba3763b5
+  - https://medium.com/@schneidenbach/restful-api-best-practices-and-common-pitfalls-7a83ba3763b5 (Also technical details here!)
   
   Further reading on REST:
   
@@ -89,3 +89,13 @@
   - http://tidyjava.com/package-feature-demanded/
   - https://stackoverflow.com/questions/11733267/is-package-by-feature-approach-good
   - https://softwareengineering.stackexchange.com/questions/351216/if-i-package-by-feature-but-have-many-homogeneous-classes-what-is-preferable
+  
+* This item is a note to self. Service methods shouldn't have the same name as dao methods. Ex: 
+  - recordService.create
+  - recordService.list
+  - recordService.update
+  - **recordService.getRecordById** => This is wrong
+  - recordService.delete
+  - **recordService.getReport** => This method can also be changed as "report"
+  
+  As you can see above "get" would be much more elegant instead of "getRecordById". Standard REST service endpoints should have standard method names. Same goes with "getReport".
