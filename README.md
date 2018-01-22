@@ -121,4 +121,4 @@
 ```
 2004-10-19 10:23:54+02
 ```
-  - https://www.postgresql.org/docs/current/static/datatype-datetime.html#DATATYPE-DATETIME-INPUT
+	- https://www.postgresql.org/docs/current/static/datatype-datetime.html#DATATYPE-DATETIME-INPUT
