@@ -115,3 +115,10 @@
 	@JsonProperty("rel_temp")
 	private Double relTemp;	
 ```
+
+* The recommended timestamp format is "yyyy-MM-dd HH:mm:SS+tz" (ISO 8601). Ex:
+
+```
+2004-10-19 10:23:54+02
+```
+  - https://www.postgresql.org/docs/current/static/datatype-datetime.html#DATATYPE-DATETIME-INPUT
