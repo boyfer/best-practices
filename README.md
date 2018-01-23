@@ -103,22 +103,27 @@
 * JSON properties should have camelCase as it is told in REST conventions. The below code sample from jogtracker is WRONG!
 
 ```
-	@JsonProperty("id")
-	private Integer recordId;
+  @JsonProperty("id")
+  private Integer recordId;
+
+  @JsonProperty("user_id")
+  private Integer userId;
 	
-	@JsonProperty("user_id")
-	private Integer userId;
+  @JsonProperty("air_temp")
+  private Double airTemp;
 	
-	@JsonProperty("air_temp")
-	private Double airTemp;
-	
-	@JsonProperty("rel_temp")
-	private Double relTemp;	
+  @JsonProperty("rel_temp")
+  private Double relTemp;	
 ```
 
 * The recommended timestamp format is "yyyy-MM-dd HH:mm:SS+tz" (ISO 8601). Ex:
 
+  - https://www.postgresql.org/docs/current/static/datatype-datetime.html#DATATYPE-DATETIME-INPUT
+
 ```
-2004-10-19 10:23:54+02
+  2004-10-19 10:23:54+02
 ```
-	- https://www.postgresql.org/docs/current/static/datatype-datetime.html#DATATYPE-DATETIME-INPUT
+
+* DAO classes should be named as xxxRepository. I found this convention by coincidence while checking JHipster:
+
+	- http://gist.asciidoctor.org/?github-mraible/jhipster4-demo//README.adoc
