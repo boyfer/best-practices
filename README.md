@@ -127,3 +127,5 @@
 * DAO classes should be named as xxxRepository. I found this convention by coincidence while checking JHipster:
 
 	- http://gist.asciidoctor.org/?github-mraible/jhipster4-demo//README.adoc
+	
+* I did some research on authentication methods in REST and a lot of developers seem to misunderstand the concepts such as OAuth and JWT. The only approach that has been agreed upon is OpenID Connect on top of OAuth 2.0. But I still think that it might be an architectural overkill because either I have to use a third-party identity provider for authentication or implement it by myself. HMAC seems a reasonable approach for machine-machine communicationin REST with API keys and API secrets.
