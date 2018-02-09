@@ -129,3 +129,22 @@
 	- http://gist.asciidoctor.org/?github-mraible/jhipster4-demo//README.adoc
 	
 * I did some research on authentication methods in REST and a lot of developers seem to misunderstand the concepts such as OAuth and JWT. The only approach that has been agreed upon is OpenID Connect on top of OAuth 2.0. But I still think that it might be an architectural overkill because either I have to use a third-party identity provider for authentication or implement it by myself. HMAC seems a reasonable approach for machine-machine communicationin REST with API keys and API secrets.
+
+* With a detailed research, now I understand why oauth should be used for any kind of API authentication and security. Here are the use cases that are applicable in our scenarios:
+
+	- You can use OpenID Connect to consume a third pary API. For example, you can use Google OpenId Connect to consume Google APIs and reach Google Servers:
+	https://developers.google.com/identity/protocols/OAuth2
+	
+	- You can use Open Id Connect to use authentication as a service by third party identity providers. You can use Google Accounts of your users to authenticate to your APIs. Note: Auth0 is great for this way of authentication. Includes lots of identity providers.
+	https://connect2id.com/learn/openid-connect
+	https://openidconnect.net/
+	https://auth0.com/
+	
+	- You can entirely build an oauth server by yourself. If you own Resource Server, Authorization Server and Identity Provider, then this is the authentication method that you should use. Examples are Toptal entrance application and Lefolio. It's OK to use Resource Owner Password Credentials Grant in this case. Client Credentials Grant should be used for machine to machine communication.
+	http://andyfiedler.com/2014/09/how-secure-is-the-oauth2-resource-owner-password-credential-flow-for-single-page-apps
+	https://www.scottbrady91.com/OAuth/Why-the-Resource-Owner-Password-Credentials-Grant-Type-is-not-Authentication-nor-Suitable-for-Modern-Applications
+	https://www.ory.sh/run-oauth2-server-open-source-api-security
+	
+	- For the details of ouath flows and grants check links below:
+	https://auth0.com/docs/api-auth/which-oauth-flow-to-use
+	https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
