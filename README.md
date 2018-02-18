@@ -148,3 +148,5 @@
 	- For the details of ouath flows and grants check links below:
 	https://auth0.com/docs/api-auth/which-oauth-flow-to-use
 	https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+* Connection pools should be used to improve the performance and HikariCp seems to be the most obvious choice.
+	http://www.baeldung.com/hikaricp
