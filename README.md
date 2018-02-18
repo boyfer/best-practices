@@ -154,7 +154,7 @@
 	- http://www.baeldung.com/hikaricp
 	- https://dzone.com/articles/database-connection-pooling-in-java-with-hikaricp 
 	
-* JPA is Java Persistence API and Hibernate is JPA provider. JPA has only java interfaces but not its implementations whereas Hibernate has implementations of those interfaces. Spring Data JPA is a JPA Data Access Abstraction. Spring Data offers a solution to GenericDao custom implementations. It can also generate JPA queries on your behalf through method name conventions. All the annotations in regarding the data layer on Java comes from JPA.
+* JPA is Java Persistence API and Hibernate is JPA provider. JPA has only java interfaces but not its implementations whereas Hibernate has implementations of those interfaces. Spring Data JPA is a JPA Data Access Abstraction. Spring Data offers a solution to GenericDao custom implementations. It can also generate JPA queries on your behalf through method name conventions. All the annotations in regarding the data layer on Java comes from JPA. Hibernate exists in this jar: `spring-boot-starter-data-jpa`
 
 	- https://stackoverflow.com/questions/23862994/what-is-the-difference-between-hibernate-and-spring-data-jpa
 	- https://www.concretepage.com/forum/thread?qid=441
