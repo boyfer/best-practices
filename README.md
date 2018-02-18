@@ -150,3 +150,4 @@
 	https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
 * Connection pools should be used to improve the performance and HikariCp seems to be the most obvious choice.
 	http://www.baeldung.com/hikaricp
+	https://dzone.com/articles/database-connection-pooling-in-java-with-hikaricp
