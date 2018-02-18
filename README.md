@@ -170,3 +170,4 @@
 
 	- https://www.mkyong.com/spring-boot/spring-boot-spring-data-jpa-oracle-example/
 	- https://docs.spring.io/spring-data/data-commons/docs/current/reference/html/#repositories
+	- https://docs.spring.io/spring-data/jpa/docs/2.0.3.RELEASE/reference/html/#jpa.query-methods
