@@ -148,12 +148,25 @@
 	- For the details of ouath flows and grants check links below:
 	https://auth0.com/docs/api-auth/which-oauth-flow-to-use
 	https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+	
 * Connection pools should be used to improve the performance and HikariCp seems to be the most obvious choice.
+
 	- http://www.baeldung.com/hikaricp
 	- https://dzone.com/articles/database-connection-pooling-in-java-with-hikaricp 
+	
 * JPA is Java Persistence API and Hibernate is JPA provider. JPA has only java interfaces but not its implementations whereas Hibernate has implementations of those interfaces. Spring Data JPA is a JPA Data Access Abstraction. Spring Data offers a solution to GenericDao custom implementations. It can also generate JPA queries on your behalf through method name conventions. All the annotations in regarding the data layer on Java comes from JPA.
 
 	- https://stackoverflow.com/questions/23862994/what-is-the-difference-between-hibernate-and-spring-data-jpa
 	- https://www.concretepage.com/forum/thread?qid=441
 	- https://coderanch.com/t/685335/certification/JPA-Spring-JPA-Spring-Data
 	- https://dzone.com/articles/easier-jpa-spring-data-jpa
+
+* If import.sql is found in the classpath, Hibernate will load it automatically.
+
+	- https://www.mkyong.com/spring-boot/spring-boot-spring-data-jpa-oracle-example/
+	- https://docs.spring.io/spring-boot/docs/current/reference/html/howto-database-initialization.html
+	
+* Typically, your repository interface will extend Repository, CrudRepository, JPARepository or PagingAndSortingRepository in Spring Data JPA.
+
+	- https://www.mkyong.com/spring-boot/spring-boot-spring-data-jpa-oracle-example/
+	- https://docs.spring.io/spring-data/data-commons/docs/current/reference/html/#repositories
