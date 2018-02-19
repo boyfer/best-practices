@@ -171,3 +171,10 @@
 	- https://www.mkyong.com/spring-boot/spring-boot-spring-data-jpa-oracle-example/
 	- https://docs.spring.io/spring-data/data-commons/docs/current/reference/html/#repositories
 	- https://docs.spring.io/spring-data/jpa/docs/2.0.3.RELEASE/reference/html/#jpa.query-methods
+
+* You need to mock objects in order to do unit testing because you are depending on db objects in these type of applications. JMockit and Mockito are clearly winners but Mockito has much bigger usage and community. It's either JMockit or PowerMock + Mockito (aka PwerMockito). 
+
+	- https://www.mkyong.com/unittest/junit-spring-integration-example/
+	- https://www.mkyong.com/unittest/unit-test-what-is-mocking-and-why/
+	- http://www.baeldung.com/mockito-vs-easymock-vs-jmockit
+	- https://www.slant.co/topics/259/~best-mock-frameworks-for-java
