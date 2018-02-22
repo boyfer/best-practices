@@ -196,3 +196,8 @@
 	3. The third and most appropriate way is to use Spring Data JPA Specifications. Related article is below:
 	
 		- http://www.baeldung.com/rest-api-query-search-or-operation
+
+* All the classes should be package-private except the beans. Beans should be public otherwise it may cause runtime error on spring. All the members should be private if possible. If not, then the access privilege should be defined according to the usage:
+
+	- https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+	- https://stackoverflow.com/questions/215497/in-java-difference-between-package-private-public-protected-and-private
