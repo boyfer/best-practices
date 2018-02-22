@@ -201,3 +201,7 @@
 
 	- https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
 	- https://stackoverflow.com/questions/215497/in-java-difference-between-package-private-public-protected-and-private
+
+* Implement Serializable in JPA entities. Your Java IDE (Eclipse) forces you to do so anyway.
+
+	- https://stackoverflow.com/questions/6033905/create-the-perfect-jpa-entity
