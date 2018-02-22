@@ -132,22 +132,24 @@
 
 * With a detailed research, now I understand why oauth should be used for any kind of API authentication and security. Here are the use cases that are applicable in our scenarios:
 
-	1- You can use OpenID Connect to consume a third pary API. For example, you can use Google OpenId Connect to consume Google APIs and reach Google Servers:
+	1. You can use OpenID Connect to consume a third pary API. For example, you can use Google OpenId Connect to consume Google APIs and reach Google Servers:
 	
 		- https://developers.google.com/identity/protocols/OAuth2
 	
-	2- You can use Open Id Connect to use authentication as a service by third party identity providers. You can use Google Accounts of your users to authenticate to your APIs. Note: Auth0 is great for this way of authentication. Includes lots of identity providers.
+	2. You can use Open Id Connect to use authentication as a service by third party identity providers. You can use Google Accounts of your users to authenticate to your APIs. Note: Auth0 is great for this way of authentication. Includes lots of identity providers.
 	
 		- https://connect2id.com/learn/openid-connect
 		- https://openidconnect.net/
 		- https://auth0.com/
 	
-	3- You can entirely build an oauth server by yourself. If you own Resource Server, Authorization Server and Identity Provider, then this is the authentication method that you should use. Examples are Toptal entrance application and Lefolio. It's OK to use Resource Owner Password Credentials Grant in this case. Client Credentials Grant should be used for machine to machine communication.
+	3. You can entirely build an oauth server by yourself. If you own Resource Server, Authorization Server and Identity Provider, then this is the authentication method that you should use. Examples are Toptal entrance application and Lefolio. It's OK to use Resource Owner Password Credentials Grant in this case. Client Credentials Grant should be used for machine to machine communication.
+	
 		- http://andyfiedler.com/2014/09/how-secure-is-the-oauth2-resource-owner-password-credential-flow-for-single-page-apps
 		- https://www.scottbrady91.com/OAuth/Why-the-Resource-Owner-Password-Credentials-Grant-Type-is-not-Authentication-nor-Suitable-for-Modern-Applications
 		- https://www.ory.sh/run-oauth2-server-open-source-api-security
 	
-	4- For the details of ouath flows and grants check links below:
+	4. For the details of ouath flows and grants check links below:
+	
 		- https://auth0.com/docs/api-auth/which-oauth-flow-to-use
 		- https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
 	
@@ -183,14 +185,14 @@
 
 * There are three ways to implement a complete where clause on a dynamic level:
 	
-	1- As in jogtracker that you just replace the operator and direclty send the whole clause to sql query. But this may be open to sql injection attacks and you must be careful on that.
+	1. As in jogtracker that you just replace the operator and direclty send the whole clause to sql query. But this may be open to sql injection attacks and you must be careful on that.
 	
-	2- Using RQSL, but it does not seem like it's a standart yet and you should use a third party library which is not widely adopted by the community. Here are the links:
+	2. Using RQSL, but it does not seem like it's a standart yet and you should use a third party library which is not widely adopted by the community. Here are the links:
 	
 		- http://www.baeldung.com/rest-api-search-language-rsql-fiql
 		- http://putracode.com/implementation-dynamic-specification-using-rsql-parser-example/
 		- https://github.com/jirutka/rsql-parser
 		
-	3- The third and most appropriate way is to use Spring Data JPA Specifications. Related article is below:
+	3. The third and most appropriate way is to use Spring Data JPA Specifications. Related article is below:
 	
 		- http://www.baeldung.com/rest-api-query-search-or-operation
