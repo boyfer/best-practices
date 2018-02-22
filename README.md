@@ -209,3 +209,9 @@
 * Implement Serializable in JPA entities. Your Java IDE (Eclipse) forces you to do so anyway.
 
 	- https://stackoverflow.com/questions/6033905/create-the-perfect-jpa-entity
+
+* Exception handling should be done via ControllerAdvice annotation in Spring cause it provides a more centralized approach which leads to a much cleaner code. Jogtracker also uses ControllerAdvice annotations. One of the below links also provide a great example for a json response output of a rest api error:
+
+	- http://www.baeldung.com/exception-handling-for-rest-with-spring
+	- https://lankydanblog.com/2017/09/12/global-exception-handling-with-controlleradvice/
+	- http://www.baeldung.com/global-error-handler-in-a-spring-rest-api
