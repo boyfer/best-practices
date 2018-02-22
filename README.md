@@ -1,4 +1,4 @@
-# best-practices - (Java / PostgreSQL / Spring / Hibernate)
+# best-practices - (Java / PostgreSQL / Spring)
 
 * "To address these difficulties, we recommend using date/time types that contain both date and time when using time zones. We do not recommend using the type time with time zone (though it is supported by PostgreSQL for legacy applications and for compliance with the SQL standard)".
 
