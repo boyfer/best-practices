@@ -21,6 +21,10 @@
   - https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions/
   - http://www.sqlstyle.guide/
 
+* You can also use JPQL instead of SQL. (You can also use none of the querying languages since Spring Data JPA automatically creates repository implementtions by method name conventions.) A JPQL intro:
+
+	- https://www.thoughts-on-java.org/jpql/
+
 * Latest stable version of Spring Boot (1.5.9) doesn't support Java 9. It will be supported with Spring Boot 2.0 but it's still in progress:
 
   - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-with-Java-9
