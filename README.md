@@ -216,10 +216,14 @@
 	- https://lankydanblog.com/2017/09/12/global-exception-handling-with-controlleradvice/
 	- http://www.baeldung.com/global-error-handler-in-a-spring-rest-api
 
-* Rest apis can be documented either by using external tools like swagger (which is one of the most popular) or Spring Rest Docs. Since Spring is our framework for doing most of the work, we will rely on this for now. Below is further reading and Spring Rest Docs resources.  Additionally you can also create documentation by Postman now:
+* Rest apis can be documented either by using external tools like swagger (which is one of the most popular) or Spring Rest Docs. Since Spring is our framework for doing most of the work, we will rely on this for now. Below is further reading and Spring Rest Docs resources.  Additionally you can also create documentation by Postman now. Postman looks like it's progressed a lot by the time:
 
 	- https://opencredo.com/rest-api-tooling-review/
 	- https://swagger.io/
 	- https://spring.io/guides/gs/testing-restdocs/
 	- http://www.baeldung.com/spring-rest-docs
 	- https://www.getpostman.com/
+
+* I think below article is the best for rest api versioning that also includes spring fw. There is nowhere else from here to go. It includes everything. Depending on your needs you can choose which way you want from the list below:
+
+	- http://www.springboottutorial.com/spring-boot-versioning-for-rest-services
