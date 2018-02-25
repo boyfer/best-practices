@@ -235,4 +235,4 @@
 	- Data acess object => UserDAO or UserRepository
 	- Service interface => UserService
 	- Service Implementation => AbstractUserService or UserServiceImpl (UserServiceImpl is much more common in Spring world.)
-	-**May need references**
+	- **May need references here.**
