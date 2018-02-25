@@ -227,3 +227,12 @@
 * I think below article is the best for rest api versioning that also includes spring fw. There is nowhere else from here to go. It includes everything. Depending on your needs you can choose which way you want from the list below:
 
 	- http://www.springboottutorial.com/spring-boot-versioning-for-rest-services
+
+* Some naming conventions for MVC objects:
+
+	- Entity => User
+	- Data transfer object => UserDTO or UserModel. (UserDTO is much more common in Java world.)
+	- Data acess object => UserDAO or UserRepository
+	- Service interface => UserService
+	- Service Implementation => AbstractUserService or UserServiceImpl (UserServiceImpl is much more common in Spring world.)
+	-**May need references**
