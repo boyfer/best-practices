@@ -257,6 +257,11 @@
 	- https://stackoverflow.com/questions/24852219/android-buildscript-repositories-jcenter-vs-mavencentral
 	- https://jfrog.com/knowledge-base/why-should-i-use-jcenter-over-maven-central/
 
+* If the table name is a reserved word in Postgresql just try to find a different name. This is what many people do to avoid clashes.
+
+	- https://stackoverflow.com/questions/22256124/cannot-create-a-database-table-named-user-in-postgresql
+	- https://dba.stackexchange.com/questions/198907/how-should-we-name-tables-that-resembles-with-reserved-words
+
 # Stack
 
 	* Windows 10
