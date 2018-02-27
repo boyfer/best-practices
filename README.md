@@ -21,6 +21,8 @@
   - https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions/
   - http://www.sqlstyle.guide/
   - https://dba.stackexchange.com/questions/68264/official-postgresql-capitalization-conventions
+  - https://www.postgresql.org/docs/current/static/ddl-basics.html
+  - https://www.postgresql.org/docs/current/static/ddl-schemas.html
 
 * You can also use JPQL instead of SQL. (You can also use none of the querying languages since Spring Data JPA automatically creates repository implementtions by method name conventions.) A JPQL intro:
 
