@@ -243,3 +243,12 @@
 	- https://www.postgresql.org/docs/current/static/ddl-schemas.html
 	- https://dba.stackexchange.com/questions/45589/what-are-the-valid-formats-of-a-postgresql-schema-name
 	- https://www.postgresql.org/docs/current/static/sql-syntax-lexical.html
+
+# Stack
+
+	* Windows 10
+	* Java 8
+	* PostgreSQL 10.2
+	* Eclipse Oxygen.2
+	* DBeaver
+	* Gradle
