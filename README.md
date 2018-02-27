@@ -250,6 +250,11 @@
 	- https://github.com/google/guava
 	- https://stackoverflow.com/questions/1444437/apache-commons-vs-guava-formerly-google-collections (Very old comparison)
 
+* It seems like jcenter surpassed mavenCentral.
+
+	- https://stackoverflow.com/questions/24852219/android-buildscript-repositories-jcenter-vs-mavencentral
+	- https://jfrog.com/knowledge-base/why-should-i-use-jcenter-over-maven-central/
+
 # Stack
 
 	* Windows 10
