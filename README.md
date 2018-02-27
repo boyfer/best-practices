@@ -263,3 +263,5 @@
 	* Eclipse Oxygen.2
 	* DBeaver
 	* Gradle
+	* Git 2.16
+	* Bitbucket
