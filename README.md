@@ -243,6 +243,12 @@
 	- https://www.postgresql.org/docs/current/static/ddl-schemas.html
 	- https://dba.stackexchange.com/questions/45589/what-are-the-valid-formats-of-a-postgresql-schema-name
 	- https://www.postgresql.org/docs/current/static/sql-syntax-lexical.html
+	
+* Using either Guava or Apache Commons library is a good start for a Java project.
+
+	- https://commons.apache.org/
+	- https://github.com/google/guava
+	- https://stackoverflow.com/questions/1444437/apache-commons-vs-guava-formerly-google-collections (Very old comparison)
 
 # Stack
 
