@@ -262,11 +262,13 @@
 	- https://stackoverflow.com/questions/22256124/cannot-create-a-database-table-named-user-in-postgresql
 	- https://dba.stackexchange.com/questions/198907/how-should-we-name-tables-that-resembles-with-reserved-words
 	
-* "We generally recommend that you locate your main application class in a root package above other classes. The @EnableAutoConfiguration annotation is often placed on your main class, and it implicitly defines a base “search package” for certain items. For example, if you are writing a JPA application, the package of the @EnableAutoConfiguration annotated class will be used to search for @Entity items.
-
-Using a root package also allows the @ComponentScan annotation to be used without needing to specify a basePackage attribute. You can also use the @SpringBootApplication annotation if your main class is in the root package."
+* "We generally recommend that you locate your main application class in a root package above other classes. The @EnableAutoConfiguration annotation is often placed on your main class, and it implicitly defines a base “search package” for certain items. For example, if you are writing a JPA application, the package of the @EnableAutoConfiguration annotated class will be used to search for @Entity items. Using a root package also allows the @ComponentScan annotation to be used without needing to specify a basePackage attribute. You can also use the @SpringBootApplication annotation if your main class is in the root package."
 
 	- https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html
+
+* Max char length for email is 320. Therefore, an email field in a db should be varchar(320)
+	
+	- https://tools.ietf.org/html/rfc3696
 
 # Stack
 
