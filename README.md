@@ -270,6 +270,10 @@
 	
 	- https://tools.ietf.org/html/rfc3696
 
+* The max output length for bcrypt is 60 characters. Therefore, password field should be varchar(60)
+
+	- https://stackoverflow.com/questions/5881169/what-column-type-length-should-i-use-for-storing-a-bcrypt-hashed-password-in-a-d
+
 # Stack
 
 	* Windows 10
