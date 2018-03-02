@@ -273,6 +273,8 @@
 * The max output length for bcrypt is 60 characters. Therefore, password field should be varchar(60)
 
 	- https://stackoverflow.com/questions/5881169/what-column-type-length-should-i-use-for-storing-a-bcrypt-hashed-password-in-a-d
+	
+* It is possible to generate JPA entity classes from tables by using Eclipse (WTP), Hibernate, Oracle Enterprise Plugin for Eclipse etc. But it is not necessary now, there a just a few classes and tables.
 
 # Stack
 
