@@ -1,4 +1,4 @@
-# Best Practices - (Java / PostgreSQL / Spring / Hibernate)
+# Best Practices - (PostgreSQL / Java / Spring / Hibernate)
 
 Some best practices that are useful in this stack.
 
