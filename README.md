@@ -274,7 +274,18 @@
 
 	- https://stackoverflow.com/questions/5881169/what-column-type-length-should-i-use-for-storing-a-bcrypt-hashed-password-in-a-d
 	
-* It is possible to generate JPA entity classes from tables by using Eclipse (WTP), Hibernate, Oracle Enterprise Plugin for Eclipse etc. But it is not necessary now, there a just a few classes and tables.
+* It is possible to generate JPA entity classes from tables by using Eclipse (WTP), Hibernate, Oracle Enterprise Plugin for Eclipse etc. But it is not necessary now, since there a just a few classes and tables.
+
+* If you are using a sequential primary key with JPA (and Hibernate), you should define this sequence both in the code and db. Data type `serial` is enough for defining such a sequence in postgres. The Java code should look like this:
+
+```
+	@Id
+	@SequenceGenerator(name="sequance_name", sequenceName="sequance_name", allocationSize=1)
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="sequance_name")
+	private short id;
+```
+
+	All the annotations above are important for the definition of the sequence otherwise it won't work, including the allocationSize. If you don't define the allocationSize the id value might go negative or collisions might happen. 
 
 # Stack
 
