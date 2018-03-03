@@ -1,6 +1,18 @@
-# best-practices - (Java / PostgreSQL / Spring / Hibernate)
+# Best Practices - (Java / PostgreSQL / Spring / Hibernate)
 
-## Postgres
+Some best practices that are useful in this stack.
+
+Contents:
+
+* [PostgreSQL](https://github.com/leventunver/best-practices#postgresql)
+* [Java](https://github.com/leventunver/best-practices#java)
+* [Spring / Hibernate](https://github.com/leventunver/best-practices#spring--hibernate)
+* [Security](https://github.com/leventunver/best-practices#security)
+* [REST](https://github.com/leventunver/best-practices#rest)
+* [Other](https://github.com/leventunver/best-practices#other)
+* [Stack](https://github.com/leventunver/best-practices#stack)
+
+## PostgreSQL
 
 * "To address these difficulties, we recommend using date/time types that contain both date and time when using time zones. We do not recommend using the type time with time zone (though it is supported by PostgreSQL for legacy applications and for compliance with the SQL standard)".
 
