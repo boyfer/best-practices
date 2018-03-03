@@ -279,13 +279,13 @@
 * If you are using a sequential primary key with JPA (and Hibernate), you should define this sequence both in the code and db. Data type `serial` is enough for defining such a sequence in postgres. The Java code should look like this:
 
 ```
-	@Id
-	@SequenceGenerator(name="sequance_name", sequenceName="sequance_name", allocationSize=1)
-	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="sequance_name")
-	private short id;
+  @Id
+  @SequenceGenerator(name="sequance_name", sequenceName="sequance_name", allocationSize=1)
+  @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="sequance_name")
+  private short id;
 ```
-
-	All the annotations above are important for the definition of the sequence otherwise it won't work, including the allocationSize. If you don't define the allocationSize the id value might go negative or collisions might happen. 
+  
+  All the annotations above are important for the definition of the sequence otherwise it won't work, including the allocationSize. If you don't define the allocationSize the id value might go negative or collisions might happen. 
 
 # Stack
 
