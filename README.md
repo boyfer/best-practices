@@ -285,7 +285,7 @@
   private short id;
 ```
   
-  All the annotations above are important for the definition of the sequence otherwise it won't work, including the allocationSize. If you don't define the allocationSize the id value might go negative or collisions might happen. 
+All the annotations above are important for the definition of the sequence otherwise it won't work, including the allocationSize. If you don't define the allocationSize the id value might go negative or collisions might happen. 
 
 # Stack
 
