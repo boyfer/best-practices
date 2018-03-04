@@ -216,6 +216,12 @@ All the annotations above are important for the definition of the sequence other
 	- https://auth0.com/blog/integrating-spring-data-jpa-postgresql-liquibase/
 	- https://stackoverflow.com/questions/7439504/confusion-notnull-vs-columnnullable-false
 	- https://stackoverflow.com/questions/2899073/basicoptional-false-vs-columnnullable-false-in-jpa
+	
+* Java Bean Validation API is the interface and the Hibernate Validator is the implementation. Since we use Spring and Hibernate is the default provider, importing `@Email` annotation from `javax.validation.constraints.Email` should be sufficient.
+	
+	- http://www.baeldung.com/javax-validation
+	- https://stackoverflow.com/questions/35050936/jpa-validation-of-email-string-collection
+	- https://stackoverflow.com/questions/4459474/hibernate-validator-email-accepts-askstackoverflow-as-valid
   
 ## Security
 
