@@ -222,6 +222,11 @@ All the annotations above are important for the definition of the sequence other
 	- http://www.baeldung.com/javax-validation
 	- https://stackoverflow.com/questions/35050936/jpa-validation-of-email-string-collection
 	- https://stackoverflow.com/questions/4459474/hibernate-validator-email-accepts-askstackoverflow-as-valid
+	
+* Below is a list of fundamental Hibernate annotations and lets you start from the get go.
+
+	- http://www.techferry.com/articles/hibernate-jpa-annotations.html
+	- https://auth0.com/blog/integrating-spring-data-jpa-postgresql-liquibase/
   
 ## Security
 
