@@ -210,6 +210,12 @@ Contents:
 ```
   
 All the annotations above are important for the definition of the sequence otherwise it won't work, including the allocationSize. If you don't define the allocationSize the id value might go negative or collisions might happen. 
+
+* When a not null field is defined in the db, normally you should be using both `@NotNull` and `@Column(nullable = false)` annotations. `@NotNull` annotation just checks POJO and `@Column(nullable = false)` annotation checks the db for null instances but Hibernate applies the bean validation constraints to DDL by default so @NotNull is enough in this case, thanks to the Hibernate.
+
+	- https://auth0.com/blog/integrating-spring-data-jpa-postgresql-liquibase/
+	- https://stackoverflow.com/questions/7439504/confusion-notnull-vs-columnnullable-false
+	- https://stackoverflow.com/questions/2899073/basicoptional-false-vs-columnnullable-false-in-jpa
   
 ## Security
 
