@@ -228,6 +228,15 @@ All the annotations above are important for the definition of the sequence other
 	- http://www.techferry.com/articles/hibernate-jpa-annotations.html
 	- https://auth0.com/blog/integrating-spring-data-jpa-postgresql-liquibase/
   
+* Core Spring annotations for your taste:
+
+	- http://www.techferry.com/articles/spring-annotations.html#ModelAttribute
+	
+* The difference between `@ModelAttribute` and `@RequestBody` is defined below. `@ModelAttribute` is used for request params whereas `@Requestbody` is used for JSON/XML data in the request for REST services. Therefore `@RequestBody` is what we need.
+
+	- https://stackoverflow.com/questions/21824012/spring-modelattribute-vs-requestbody
+	- https://stackoverflow.com/questions/43716767/spring-mvc-requestbody-vs-modelattribute
+  
 ## Security
 
 * Argon2 won the password hashing competitions, but due to Spring implementations we should stick to bcrypt for now. Argon2 might still need some time. Links below:
