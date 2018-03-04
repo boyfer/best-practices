@@ -236,6 +236,11 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://stackoverflow.com/questions/21824012/spring-modelattribute-vs-requestbody
 	- https://stackoverflow.com/questions/43716767/spring-mvc-requestbody-vs-modelattribute
+	
+* Some examples of Spring bean scopes with the `@Scope` annotation. Default and most used one is singleton.
+
+	- https://www.mkyong.com/spring/spring-bean-scopes-examples/
+	- http://www.baeldung.com/spring-bean-scopes
   
 ## Security
 
