@@ -307,6 +307,14 @@ All the annotations above are important for the definition of the sequence other
 	- https://stackoverflow.com/questions/24852219/android-buildscript-repositories-jcenter-vs-mavencentral
 	- https://jfrog.com/knowledge-base/why-should-i-use-jcenter-over-maven-central/
 
+* Lombok is a great tool for creating boilerplate code such as getters, setters and toString(), hashCode(), equals() methods. It is considered to be safe and supports Java 9.
+
+	- https://stackoverflow.com/questions/3852091/is-it-safe-to-use-project-lombok/12807937
+	- https://stackoverflow.com/users/18122/oliver-gierke
+	- https://github.com/spring-projects/spring-data-rest/blame/897bc88d6922e755038a6a8e34ca25ace6a27689/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/alps/RootResourceInformationToAlpsDescriptorConverter.java#L20
+	- https://projectlombok.org/
+	- https://github.com/franzbecker/gradle-lombok
+
 # Stack
 
 	* Windows 10
