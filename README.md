@@ -362,7 +362,11 @@ All the annotations above are important for the definition of the sequence other
 	- https://projectlombok.org/
 	- https://github.com/franzbecker/gradle-lombok
 
+* Liquibase is a source / version control tool for database. Flyway is also an alternative to this tool and referenced by Spring Boot / Pivotal. No need for the jogtracker though, but may be necessary for bigger projects and production environments.
 
+	- https://stackoverflow.com/questions/29760629/why-and-when-liquibase
+	- https://www.liquibase.org/
+	- https://flywaydb.org/
 
 # Stack
 
