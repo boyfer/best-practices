@@ -23,6 +23,10 @@ Contents:
 
   - http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
   - http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
+  
+* Always use timezone names like "Europe/Istanbul".  Never ever use offsets! Timezone names do take care of daylight savings etc.
+
+	- http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
 
 * Two great sql style guides (or naming conventions) are below. First one seems derived by PostgreSQL:
 
