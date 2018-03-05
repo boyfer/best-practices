@@ -9,6 +9,7 @@ Contents:
 * [Spring / Hibernate](#spring--hibernate)
 * [Security](#security)
 * [REST](#rest)
+* [Git](#git)
 * [Other](#other)
 * [Stack](#stack)
 
@@ -321,6 +322,16 @@ All the annotations above are important for the definition of the sequence other
   @JsonProperty("rel_temp")
   private Double relTemp;	
 ```
+
+## Git
+
+* Below are different articles on git branching strategy. Will be discessed in detail later.
+
+	- http://nvie.com/posts/a-successful-git-branching-model/
+	- https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/
+	- http://www.nomachetejuggling.com/2017/04/09/a-different-branching-strategy/
+	- https://hackernoon.com/how-the-creators-of-git-do-branches-e6fcc57270fb
+	- https://news.ycombinator.com/item?id=11190310
 
 ## Other
 
