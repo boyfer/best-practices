@@ -341,6 +341,7 @@ All the annotations above are important for the definition of the sequence other
 	- https://commons.apache.org/
 	- https://github.com/google/guava
 	- https://stackoverflow.com/questions/1444437/apache-commons-vs-guava-formerly-google-collections (Very old comparison)
+	- https://stackoverflow.com/questions/4542550/what-are-the-big-improvements-between-guava-and-apache-equivalent-libraries (Old again)
 
 * It seems like jcenter surpassed mavenCentral.
 
