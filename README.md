@@ -245,6 +245,11 @@ All the annotations above are important for the definition of the sequence other
 * Default value for a column can be handled by the db so you don't need an additional annotation or code in the JPA layer. But if you really need to handle that in the code you can just set an initial value for the variable and that's it.
 
 	- https://stackoverflow.com/questions/197045/setting-default-values-for-columns-in-jpa
+	
+* Soft delete can easily be achieved by a single `@Where` annotation of Hibernate. This annotation should be placed right in the beginning of the entity.
+
+	- https://stackoverflow.com/questions/19323557/handling-soft-deletes-with-spring-jpa
+	- https://dzone.com/articles/hibernate-where-clause
   
 ## Security
 
