@@ -4,14 +4,13 @@ Some best practices that are useful in this stack.
 
 Contents:
 
-* [PostgreSQL](https://github.com/leventunver/best-practices#postgresql)
-* [Java](https://github.com/leventunver/best-practices#java)
-* [Spring / Hibernate](https://github.com/leventunver/best-practices#spring--hibernate)
-* [Security](https://github.com/leventunver/best-practices#security)
-* [REST](https://github.com/leventunver/best-practices#rest)
-* [Other](https://github.com/leventunver/best-practices#other)
-* [Stack](https://github.com/leventunver/best-practices#stack)
-* [Stack-relative](#stack)
+* [PostgreSQL](#postgresql)
+* [Java](#java)
+* [Spring / Hibernate](#spring--hibernate)
+* [Security](#security)
+* [REST](#rest)
+* [Other](#other)
+* [Stack](#stack)
 
 ## PostgreSQL
 
