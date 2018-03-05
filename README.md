@@ -241,6 +241,10 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://www.mkyong.com/spring/spring-bean-scopes-examples/
 	- http://www.baeldung.com/spring-bean-scopes
+
+* Default value for a column can be handled by the db so you don't need an additional annotation or code in the JPA layer. But if you really need to handle that in the code you can just set an initial value for the variable and that's it.
+
+	- https://stackoverflow.com/questions/197045/setting-default-values-for-columns-in-jpa
   
 ## Security
 
