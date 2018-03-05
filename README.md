@@ -344,8 +344,9 @@ All the annotations above are important for the definition of the sequence other
 	- https://stackoverflow.com/questions/4542550/what-are-the-big-improvements-between-guava-and-apache-equivalent-libraries (Old again)
 	- https://stackoverflow.com/questions/14978699/is-it-a-good-idea-to-use-google-guava-library-for-android-development
 	
-* "Guava is the open-sourced version of Google's core Java libraries: the core utilities that Googlers use every day in their code. The Guava utilities have been carefully designed, tested, optimized and used in production at Google. You don't need to write them, test them, or optimize them: you can just use them. Guava is a productivity multiplier for Java projects across the board: we aim to make working in the Java language more pleasant and more productive. To summarize, don’t reinvent the wheel. If you need to do something that seems like it should be reasonably common, there may already be a class in the libraries that does what you want. If there is, use it; if you don’t know, check. Generally speaking, library code is likely to be better than code that you’d write yourself and is likely to improve over time. This is no reflection on your abilities as a programmer. Economies of scale dictate that library code receives far more attention than most developers could afford to devote to the same functionality."
+* "Guava is a productivity multiplier for Java projects across the board: we aim to make working in the Java language more pleasant and more productive. The Guava project contains several of Google's core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth." Use it when it's needed.
 
+	- https://github.com/google/guava
 	- https://github.com/google/guava/wiki/PhilosophyExplained
 
 * It seems like jcenter surpassed mavenCentral.
