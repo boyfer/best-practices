@@ -28,6 +28,18 @@ Contents:
 * Always use timezone names like "Europe/Istanbul".  Never ever use offsets! Timezone names do take care of daylight savings etc.
 
 	- http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
+	
+* Always use `timestamptz` when possible. Use `timestamp` when there is no other way. 
+
+	- http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
+	
+* A possible way of inserting into `timestamptz` when you don't know the offset at a given time and timezone. But this should be your last resort. Note that `+0000` value is not being taken into account since the type is `timestamp`. You add that `+0000` offset value to make it compatible with Java's `OffsetDateTime`. 
+
+	`INSERT INTO test2 (tested_at) VALUES (TIMEZONE('Europe/Istanbul', '2018-03-05 17:35:24+0000'::timestamp));`
+	
+* You get the offset manually by the below link:
+
+	- https://www.timeanddate.com/worldclock/converter.html
 
 * Two great sql style guides (or naming conventions) are below. First one seems derived by PostgreSQL:
 
