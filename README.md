@@ -261,7 +261,13 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://jdbc.postgresql.org/documentation/head/java8-date-time.html
 	- https://docs.oracle.com/javase/9/docs/api/java/time/ZonedDateTime.html
-  
+
+* Change the default timezone settings by the below links. They include all the possible answers including JVM, Spring, Hibernate, Jackson etc.
+
+	- https://stackoverflow.com/questions/508019/how-to-store-date-time-and-timestamps-in-utc-time-zone-with-jpa-and-hibernate/40438746#40438746
+	- https://moelholm.com/2016/11/09/spring-boot-controlling-timezones-with-hibernate/
+	- https://stackoverflow.com/questions/46151633/how-to-make-default-time-zone-apply-in-spring-boot-jackson-date-serialization
+
 ## Security
 
 * Argon2 won the password hashing competitions, but due to Spring implementations we should stick to bcrypt for now. Argon2 might still need some time. Links below:
