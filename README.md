@@ -59,7 +59,7 @@ Contents:
 
 	- http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
 	
-* You can get the client timezone and offset from ios, Android and javascript. Even if none of these help, you can still use `TimeZone` class in Java to get the offset by the date and timezone.
+* You can get the client timezone and offset from ios, Android and javascript. Even if none of these help, you can still use `TimeZone` class in Java to get the offset by the date and timezone. So the above conversion from `timestamp` to `timestamptz` in PostgreSQL is not necessary.
 
 	- https://stackoverflow.com/questions/1091372/getting-the-clients-timezone-in-javascript
 	- https://stackoverflow.com/questions/19186666/get-timezone-country-from-iphone
