@@ -53,6 +53,10 @@ Contents:
 * "The function timezone(zone, timestamp) is equivalent to the SQL-conforming construct timestamp AT TIME ZONE zone."
 
 	- https://www.postgresql.org/docs/current/static/functions-datetime.html#FUNCTIONS-DATETIME-ZONECONVERT
+	
+* `timestamptz` is always displayed at according to the `TIMEZONE` setting of the db session such as `TIMEZONE='UTC'`. You can set the default value through `postgresql.conf`. The rest is up to the application which may be overridden (via anything like Spring, Hibernate, SQL client etc).
+
+	- http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
 
 * Two great sql style guides (or naming conventions) are below. First one seems derived by PostgreSQL:
 
