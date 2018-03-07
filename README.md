@@ -40,6 +40,15 @@ Contents:
 * You get the offset manually by the below link:
 
 	- https://www.timeanddate.com/worldclock/converter.html
+	
+* You can still use `AT TIME ZONE` (or `TIMEZONE()`) when querying. It's useful for conversions between timezones.
+
+	- http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
+	- http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/#converting-between-timezones
+	
+- A great section to understand the difference between `timestamp` and `timestamptz`. It also descirebes the logic behind the data type changes when doing time zone conversions. Basically you don't just convert timezones, you also convert an absolute point in time to a specific local time in a given timezone.
+
+	- http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/#converting-between-timezones
 
 * Two great sql style guides (or naming conventions) are below. First one seems derived by PostgreSQL:
 
