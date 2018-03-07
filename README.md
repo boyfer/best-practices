@@ -23,7 +23,7 @@ Contents:
 
   - http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
   - http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
-  - http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
+  - http://justatheory.com/computers/databases/postgresql/use-timestamptz.html => (Good summary for best practices)
   
 * Always use timezone names like "Europe/Istanbul".  Never ever use offsets! Timezone names do take care of daylight savings etc.
 
