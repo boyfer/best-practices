@@ -256,6 +256,11 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://stackoverflow.com/questions/19323557/handling-soft-deletes-with-spring-jpa
 	- https://dzone.com/articles/hibernate-where-clause
+	
+* `OffsetDateTime` should be used to map PostgreSQL's `timestamptz`. That's the default data type to be used in Java 8 JDBC Driver. Timezone offset is also necessity in `ZonedDateTime` so it's meaningless to use it. `OffsetDateTime` is the exact match of `timestamptz`
+
+	- https://jdbc.postgresql.org/documentation/head/java8-date-time.html
+	- https://docs.oracle.com/javase/9/docs/api/java/time/ZonedDateTime.html
   
 ## Security
 
