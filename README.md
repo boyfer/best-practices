@@ -49,6 +49,10 @@ Contents:
 - A great section to understand the difference between `timestamp` and `timestamptz`. It also descirebes the logic behind the data type changes when doing time zone conversions. Basically you don't just convert timezones, you also convert an absolute point in time to a specific local time in a given timezone.
 
 	- http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/#converting-between-timezones
+	
+* "The function timezone(zone, timestamp) is equivalent to the SQL-conforming construct timestamp AT TIME ZONE zone."
+
+	- https://www.postgresql.org/docs/current/static/functions-datetime.html#FUNCTIONS-DATETIME-ZONECONVERT
 
 * Two great sql style guides (or naming conventions) are below. First one seems derived by PostgreSQL:
 
