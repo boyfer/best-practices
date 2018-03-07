@@ -58,6 +58,13 @@ Contents:
 * `timestamptz` is always displayed at according to the `TIMEZONE` setting of the db session such as `TIMEZONE='UTC'`. You can set the default value through `postgresql.conf`. The rest is up to the application which may be overridden (via anything like Spring, Hibernate, SQL client etc).
 
 	- http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
+	
+* You can get the client timezone and offset from ios, Android and javascript. Even if none of these help, you can still use `TimeZone` class in Java to get the offset by the date and timezone.
+
+	- https://stackoverflow.com/questions/1091372/getting-the-clients-timezone-in-javascript
+	- https://stackoverflow.com/questions/19186666/get-timezone-country-from-iphone
+	- https://stackoverflow.com/questions/7672597/how-to-get-timezone-from-android-mobile
+	- https://docs.oracle.com/javase/9/docs/api/java/util/TimeZone.html
 
 * Two great sql style guides (or naming conventions) are below. First one seems derived by PostgreSQL:
 
