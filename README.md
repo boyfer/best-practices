@@ -339,6 +339,10 @@ All the annotations above are important for the definition of the sequence other
 		- https://auth0.com/docs/api-auth/which-oauth-flow-to-use
 		- https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
 
+* In Spring Security with OAuth 2.0, an application can contain both Authorization Server and Resource Server. "A Resource Server (can be the same as the Authorization Server or a separate application) serves resources that are protected by the OAuth2 token." 
+
+	- http://projects.spring.io/spring-security-oauth/docs/oauth2.html
+
 ## REST
 
 * The most common starting points for JSON:
