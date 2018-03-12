@@ -342,6 +342,18 @@ All the annotations above are important for the definition of the sequence other
 * In Spring Security with OAuth 2.0, an application can contain both Authorization Server and Resource Server. "A Resource Server (can be the same as the Authorization Server or a separate application) serves resources that are protected by the OAuth2 token." 
 
 	- http://projects.spring.io/spring-security-oauth/docs/oauth2.html
+	
+* These three articles are used to enable ssl in spring security:
+
+	- https://memorynotfound.com/spring-boot-configure-tomcat-ssl-https/
+	- https://www.thomasvitale.com/https-spring-boot-ssl-certificate/
+	- https://stackoverflow.com/questions/47700115/tomcatembeddedservletcontainerfactory-is-missing-in-spring-boot-2
+	
+* To implement oauth on spring security there is an amazing article on Medium. The others are supplementary:
+
+	- https://medium.com/@nydiarra/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50
+	- https://stackoverflow.com/questions/46999940/spring-boot-passwordencoder-error/47150363?noredirect=1#comment85408407_47150363
+	- https://projects.spring.io/spring-security-oauth/docs/oauth2.html
 
 ## REST
 
