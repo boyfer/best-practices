@@ -361,6 +361,11 @@ All the annotations above are important for the definition of the sequence other
 	- https://github.com/spring-projects/spring-security-oauth/issues/325
 	- https://stackoverflow.com/questions/28703847/how-do-you-set-a-resource-id-for-a-token
 	- http://jwt.io
+	
+* Random 64 characters of hex is enough for signing JWT tokens a.k.a. `signing-key`:
+
+	- https://github.com/dwyl/hapi-auth-jwt2/issues/48
+	- https://github.com/dwyl/learn-json-web-tokens
 
 ## REST
 
