@@ -354,6 +354,13 @@ All the annotations above are important for the definition of the sequence other
 	- https://medium.com/@nydiarra/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50
 	- https://stackoverflow.com/questions/46999940/spring-boot-passwordencoder-error/47150363?noredirect=1#comment85408407_47150363
 	- https://projects.spring.io/spring-security-oauth/docs/oauth2.html
+	
+* ResourceId in OAuth and JWT is useful when there are multiple resources and multiple resource servers. It is unnecessary work to add resourceIds if there are only one resource. Below links do not explain this but some links related with resource id usage:
+
+	- https://github.com/spring-projects/spring-security-oauth/issues/299
+	- https://github.com/spring-projects/spring-security-oauth/issues/325
+	- https://stackoverflow.com/questions/28703847/how-do-you-set-a-resource-id-for-a-token
+	- http://jwt.io
 
 ## REST
 
