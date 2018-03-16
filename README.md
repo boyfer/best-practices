@@ -237,6 +237,12 @@ Contents:
 	- http://www.baeldung.com/spring-rest-docs
 	- https://www.getpostman.com/
 	
+* Spring REST Docs is chosen over swagger in general. Below are the links. But what about Postman?
+
+	- https://dzone.com/articles/a-qa-with-andy-wilkinson-on-spring-rest-docs
+	- https://stackoverflow.com/questions/34457729/what-is-the-benefit-of-using-spring-rest-docs-comparing-to-swagger
+	- https://dzone.com/articles/introducing-spring-auto-rest-docs
+	
 * I think below article is the best for rest api versioning that also includes spring fw. There is nowhere else from here to go. It includes everything. Depending on your needs you can choose which way you want from the list below:
 
 	- http://www.springboottutorial.com/spring-boot-versioning-for-rest-services
