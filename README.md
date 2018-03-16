@@ -502,4 +502,3 @@ All the annotations above are important for the definition of the sequence other
 	* Eclipse Oxygen.2
 	* DBeaver
 	* Git 2.16
-	* Bitbucket
