@@ -304,6 +304,18 @@ All the annotations above are important for the definition of the sequence other
 	- https://stackoverflow.com/questions/508019/how-to-store-date-time-and-timestamps-in-utc-time-zone-with-jpa-and-hibernate/40438746#40438746
 	- https://moelholm.com/2016/11/09/spring-boot-controlling-timezones-with-hibernate/
 	- https://stackoverflow.com/questions/46151633/how-to-make-default-time-zone-apply-in-spring-boot-jackson-date-serialization
+	
+* If you use `RepositoryRestResource` together with `RestController` then `RestController` overrides the methods.
+
+	- https://stackoverflow.com/questions/22824840/when-to-use-restcontroller-vs-repositoryrestresource (check comments.)
+	
+* To return 404 http status for that do not exist, just throw `ResourceNotFoundException`:
+
+	- https://docs.spring.io/spring-data/rest/docs/current/api/org/springframework/data/rest/webmvc/ResourceNotFoundException.html
+	
+* Use `ResourceNotFoundException` together with `Optional` in Java 8. `Repository` methods return `Optional` values so `orElseThrow` method of `Optional` will work. `accountRepository.findById(id).orElseThrow(ResourceNotFoundException::new);`
+
+	- http://www.baeldung.com/java-optional
 
 ## Security
 
@@ -366,6 +378,16 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://github.com/dwyl/hapi-auth-jwt2/issues/48
 	- https://github.com/dwyl/learn-json-web-tokens
+	
+* Implementing your custom security annotation filter is as easy as below:
+
+	- https://dreamix.eu/blog/java/implementing-custom-authorization-function-for-springs-pre-and-post-annotations
+	- https://docs.spring.io/spring-security/site/docs/current/reference/html/el-access.html#el-access-web-path-variables
+	
+* `@PreAuthorize` is used to give access before the method is called. `@PostAuthorize` is used to give access according to the return value. `@PreFilter` is filtering the data before the method call, `@PostFilter` is filtering the data after the method is invoked.
+
+	- https://stackoverflow.com/questions/22093018/valid-use-case-for-postauthorize-and-postfilter-annotations
+	- https://docs.spring.io/spring-security/site/docs/current/reference/html/el-access.html#el-pre-post-annotations
 
 ## REST
 
