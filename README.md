@@ -199,7 +199,11 @@ Contents:
 
 	- https://www.mkyong.com/spring-boot/spring-boot-spring-data-jpa-oracle-example/
 	- https://docs.spring.io/spring-data/data-commons/docs/current/reference/html/#repositories
-	- https://docs.spring.io/spring-data/jpa/docs/2.0.3.RELEASE/reference/html/#jpa.query-methods
+	
+* Below links detail the differences between `JPARepository`, `PagingAndSortingRepository`, `CrudRepository`. Basically, `JPARepository` > `PagingAndSortingRepository` > `CrudRepository` > `Repository` and they all extend each other respectively. That being said `JPARepository` is the biggest one containing all the methods.
+
+	- https://stackoverflow.com/questions/14014086/what-is-difference-between-crudrepository-and-jparepository-interfaces-in-spring
+	- http://www.baeldung.com/spring-data-repositories
 	
 * There are three ways to implement a complete where clause on a dynamic level:
 	
