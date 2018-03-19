@@ -502,7 +502,7 @@ All the annotations above are important for the definition of the sequence other
 
 	* Windows 10
 	* PostgreSQL 10.2
-	* Java 8
+	* Java 9
 	* Spring Boot 2.0.0
 	* Gradle 4.6
 	* Eclipse Oxygen.2
