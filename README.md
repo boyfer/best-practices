@@ -326,6 +326,12 @@ All the annotations above are important for the definition of the sequence other
 * Use `ResourceNotFoundException` together with `Optional` in Java 8. `Repository` methods return `Optional` values so `orElseThrow` method of `Optional` will work. `accountRepository.findById(id).orElseThrow(ResourceNotFoundException::new);`
 
 	- http://www.baeldung.com/java-optional
+	
+* You can simply compile and run spring boot with one single gradle command and that is `bootRun` however you can't stop the application gracefully and kill the daemon. You can build the application without testing by `.\gradlew build -x test` command. Additionally, you can use `spring-boot-devtools` which automatically deploys the server when the classpath is changed. Finally you can write a single .bat file that contains both `.\gradlew clean build -x test` and `.\java -jar .\build\libs\app.jar` so that you can create the jar and start the app with one single command.
+
+	- https://stackoverflow.com/questions/37338407/what-is-the-difference-between-gradle-bootrun-and-gradle-run-to-run-a-spring
+	- https://stackoverflow.com/questions/39123416/ctrlc-w-spring-boot-gradle-kills-gradle-daemon
+	- https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
 
 ## Security
 
