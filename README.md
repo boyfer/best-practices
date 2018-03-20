@@ -340,6 +340,10 @@ All the annotations above are important for the definition of the sequence other
 	- https://projects.spring.io/spring-hateoas/
 	- https://stackoverflow.com/questions/20985481/java-compile-conflict-return-type-is-incompatible-with-hateoas-resourcesupport
 	- https://docs.spring.io/spring-hateoas/docs/current/reference/html/#fundamentals.obtaining-links.builder
+	
+* There is a great way of using a default value for `timestamptz` fields. Use the annotations `@CreationTimestamp` and `@UpdateTimestamp`.
+
+	- https://www.thoughts-on-java.org/persist-creation-update-timestamps-hibernate/
 
 ## Security
 
