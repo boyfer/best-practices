@@ -338,6 +338,8 @@ All the annotations above are important for the definition of the sequence other
 	- https://spring.io/guides/gs/rest-hateoas/
 	- http://www.baeldung.com/spring-hateoas-tutorial
 	- https://projects.spring.io/spring-hateoas/
+	- https://stackoverflow.com/questions/20985481/java-compile-conflict-return-type-is-incompatible-with-hateoas-resourcesupport
+	- https://docs.spring.io/spring-hateoas/docs/current/reference/html/#fundamentals.obtaining-links.builder
 
 ## Security
 
