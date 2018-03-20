@@ -332,6 +332,12 @@ All the annotations above are important for the definition of the sequence other
 	- https://stackoverflow.com/questions/37338407/what-is-the-difference-between-gradle-bootrun-and-gradle-run-to-run-a-spring
 	- https://stackoverflow.com/questions/39123416/ctrlc-w-spring-boot-gradle-kills-gradle-daemon
 	- https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
+	
+* Below are the links for adding HATEOAS to your Spring Boot project. If you want to add only the self relation link then the Spring guide wll be enough. But if you want to add links to all resources of an entity then you might want to check the Baeldung article.
+
+	- https://spring.io/guides/gs/rest-hateoas/
+	- http://www.baeldung.com/spring-hateoas-tutorial
+	- https://projects.spring.io/spring-hateoas/
 
 ## Security
 
