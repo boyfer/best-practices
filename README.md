@@ -421,6 +421,11 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://dzone.com/articles/custom-annotation-in-java-for-sql-injection-safe-p
 	- https://github.com/rkpunjal/sql-safe-annotation-example
+	
+* From the OAuth 2 specification, request to the token endpoint should be sent as a key value parameters not JSON. 
+
+	- https://stackoverflow.com/questions/38165131/spring-security-oauth2-accept-json/
+	- https://tools.ietf.org/html/rfc6749#section-4.1.3
 
 ## REST
 
