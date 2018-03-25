@@ -416,6 +416,11 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://stackoverflow.com/questions/22093018/valid-use-case-for-postauthorize-and-postfilter-annotations
 	- https://docs.spring.io/spring-security/site/docs/current/reference/html/el-access.html#el-pre-post-annotations
+	
+* There is a great article on DZone that shows how to build a SQL Injection prevention filter manually. It can also be added as a dependency. Even including the content as a util class is sufficient.
+
+	- https://dzone.com/articles/custom-annotation-in-java-for-sql-injection-safe-p
+	- https://github.com/rkpunjal/sql-safe-annotation-example
 
 ## REST
 
