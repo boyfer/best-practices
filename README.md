@@ -344,6 +344,11 @@ All the annotations above are important for the definition of the sequence other
 * There is a great way of using a default value for `timestamptz` fields. Use the annotations `@CreationTimestamp` and `@UpdateTimestamp`.
 
 	- https://www.thoughts-on-java.org/persist-creation-update-timestamps-hibernate/
+	
+* File upload on spring:
+
+	- https://spring.io/guides/gs/uploading-files/
+	- http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/
 
 ## Security
 
@@ -463,6 +468,13 @@ All the annotations above are important for the definition of the sequence other
   @JsonProperty("rel_temp")
   private Double relTemp;	
 ```
+
+* File upload on REST:
+
+	- https://stackoverflow.com/questions/33279153/rest-api-file-ie-images-processing-best-practices
+	- https://stackoverflow.com/questions/4083702/posting-a-file-and-associated-data-to-a-restful-webservice-preferably-as-json
+	- https://stackoverflow.com/questions/3938569/how-do-i-upload-a-file-with-metadata-using-a-rest-web-service
+	- https://philsturgeon.uk/api/2016/01/04/http-rest-api-file-uploads/
 
 ## Git
 
