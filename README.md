@@ -94,6 +94,9 @@ Contents:
   - https://stackoverflow.com/questions/4824024/how-important-are-lookup-tables/4824718#4824718
   - https://dba.stackexchange.com/questions/6108/should-every-table-have-a-single-field-surrogate-artificial-primary-key
   
+  **UPDATE:** A great alternative is postgresql's enum:
+  - https://www.postgresql.org/docs/current/static/datatype-enum.html
+  
 * The choice between UUID vs Auto Increment really depends on the application. Some people defend UUID, dismiss auto-increment and some people do the opposite. There is no consensus on this topic. Some argumentation here:
 
   - https://dba.stackexchange.com/questions/91669/primary-key-auto-increment-best-practices
