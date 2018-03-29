@@ -352,6 +352,12 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://spring.io/guides/gs/uploading-files/
 	- http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/
+	
+* Some old stackoverflow questions tell that DTOs should be used for serialization instead of entities:
+
+	- https://stackoverflow.com/questions/5216633/jpa-entities-and-vs-dtos
+	- https://stackoverflow.com/questions/25698175/using-dto-vs-serializating-entities
+	- https://stackoverflow.com/questions/1688473/dtos-vs-serializing-persisted-entities
 
 ## Security
 
