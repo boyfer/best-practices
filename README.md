@@ -431,6 +431,10 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://stackoverflow.com/questions/38165131/spring-security-oauth2-accept-json/
 	- https://tools.ietf.org/html/rfc6749#section-4.1.3
+	
+* .jks files should not be stored in source repository.
+
+	- https://security.stackexchange.com/questions/100584/where-should-a-keystore-jks-be-stored-in-a-repository
 
 ## REST
 
