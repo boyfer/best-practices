@@ -363,6 +363,11 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://www.javabullets.com/spring-data-rest-projections/
 	- https://stackoverflow.com/questions/45401734/how-to-work-with-dto-in-spring-data-rest-projects
+	
+* You can use `ModelMapper` as an alternative to convert entities to DTOs.
+	
+	- http://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application
+	- https://auth0.com/blog/automatically-mapping-dto-to-entity-on-spring-boot-apis/
 
 ## Security
 
