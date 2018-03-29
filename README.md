@@ -358,6 +358,11 @@ All the annotations above are important for the definition of the sequence other
 	- https://stackoverflow.com/questions/5216633/jpa-entities-and-vs-dtos
 	- https://stackoverflow.com/questions/25698175/using-dto-vs-serializating-entities
 	- https://stackoverflow.com/questions/1688473/dtos-vs-serializing-persisted-entities
+	
+- It's possible to use `Projections` as DTOs in Spring Data Rest.
+
+	- https://www.javabullets.com/spring-data-rest-projections/
+	- https://stackoverflow.com/questions/45401734/how-to-work-with-dto-in-spring-data-rest-projects
 
 ## Security
 
