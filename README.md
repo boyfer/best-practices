@@ -318,7 +318,7 @@ All the annotations above are important for the definition of the sequence other
 	- https://moelholm.com/2016/11/09/spring-boot-controlling-timezones-with-hibernate/
 	- https://stackoverflow.com/questions/46151633/how-to-make-default-time-zone-apply-in-spring-boot-jackson-date-serialization
 	
-* If you use `RepositoryRestResource` together with `RestController` then `RestController` overrides the methods.
+* If you use `RepositoryRestResource` in Spring Data Rest together with `RestController` then `RestController` overrides the methods.
 
 	- https://stackoverflow.com/questions/22824840/when-to-use-restcontroller-vs-repositoryrestresource (check comments.)
 	
@@ -368,6 +368,15 @@ All the annotations above are important for the definition of the sequence other
 	
 	- http://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application
 	- https://auth0.com/blog/automatically-mapping-dto-to-entity-on-spring-boot-apis/
+	
+* You can `@PreAuthorize` together with Spring Data Rest as below.
+
+	- https://www.javabullets.com/securing-spring-data-rest-preauthorize/
+	- https://www.javabullets.com/spring-security-spring-data-rest/
+	
+* Below is a great series on Spring Data Rest in general:
+
+	- https://www.javabullets.com/category/spring-data-rest/
 
 ## Security
 
