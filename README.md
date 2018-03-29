@@ -345,7 +345,7 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://www.thoughts-on-java.org/persist-creation-update-timestamps-hibernate/
 	
-* File upload on spring:
+* File (image) upload on spring:
 
 	- https://spring.io/guides/gs/uploading-files/
 	- http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/
@@ -473,7 +473,7 @@ All the annotations above are important for the definition of the sequence other
   private Double relTemp;	
 ```
 
-* File upload on REST:
+* File (image) upload on REST:
 
 	- https://stackoverflow.com/questions/33279153/rest-api-file-ie-images-processing-best-practices
 	- https://stackoverflow.com/questions/4083702/posting-a-file-and-associated-data-to-a-restful-webservice-preferably-as-json
