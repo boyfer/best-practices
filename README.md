@@ -9,6 +9,7 @@ Contents:
 * [Spring / Hibernate](#spring--hibernate)
 * [Security](#security)
 * [REST](#rest)
+* [Testing](#testing)
 * [Git](#git)
 * [Other](#other)
 * [Stack](#stack)
@@ -364,7 +365,7 @@ All the annotations above are important for the definition of the sequence other
 	- https://www.javabullets.com/spring-data-rest-projections/
 	- https://stackoverflow.com/questions/45401734/how-to-work-with-dto-in-spring-data-rest-projects
 	
-* You can use `ModelMapper` as an alternative to convert entities to DTOs.
+* You can use `ModelMapper` as an alternative to `BeanUtils.copyProperties` in order to convert entities to DTOs.
 	
 	- http://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application
 	- https://auth0.com/blog/automatically-mapping-dto-to-entity-on-spring-boot-apis/
@@ -507,6 +508,28 @@ All the annotations above are important for the definition of the sequence other
 	- https://stackoverflow.com/questions/4083702/posting-a-file-and-associated-data-to-a-restful-webservice-preferably-as-json
 	- https://stackoverflow.com/questions/3938569/how-do-i-upload-a-file-with-metadata-using-a-rest-web-service
 	- https://philsturgeon.uk/api/2016/01/04/http-rest-api-file-uploads/
+	
+## Testing
+
+* You need to mock objects in order to do unit testing because you are depending on db objects in these type of applications. JMockit and Mockito are clearly winners but Mockito has much bigger usage and community. It's either JMockit or PowerMock + Mockito (aka PowerMockito). 
+
+	- https://www.mkyong.com/unittest/junit-spring-integration-example/
+	- https://www.mkyong.com/unittest/unit-test-what-is-mocking-and-why/
+	- http://www.baeldung.com/mockito-vs-easymock-vs-jmockit
+	- https://www.slant.co/topics/259/~best-mock-frameworks-for-java
+	
+* Below articles shows how to test a system behind spring security oauth:
+
+	- http://www.baeldung.com/oauth-api-testing-with-spring-mvc
+	- https://spring.io/guides/gs/testing-web/
+	
+* Below articles summarize the e2e testing:
+
+	- http://www.softwaretestinghelp.com/what-is-end-to-end-testing/
+	- https://www.guru99.com/end-to-end-testing.html
+	- https://www.techopedia.com/definition/7035/end-to-end-test
+	- https://medium.freecodecamp.org/why-end-to-end-testing-is-important-for-your-team-cb7eb0ec1504
+	- https://testcafe.devexpress.com/ (e2e tool)
 
 ## Git
 
@@ -524,13 +547,6 @@ All the annotations above are important for the definition of the sequence other
 
 	- http://www.baeldung.com/hikaricp
 	- https://dzone.com/articles/database-connection-pooling-in-java-with-hikaricp 
-	
-* You need to mock objects in order to do unit testing because you are depending on db objects in these type of applications. JMockit and Mockito are clearly winners but Mockito has much bigger usage and community. It's either JMockit or PowerMock + Mockito (aka PowerMockito). 
-
-	- https://www.mkyong.com/unittest/junit-spring-integration-example/
-	- https://www.mkyong.com/unittest/unit-test-what-is-mocking-and-why/
-	- http://www.baeldung.com/mockito-vs-easymock-vs-jmockit
-	- https://www.slant.co/topics/259/~best-mock-frameworks-for-java
 
 * Using either Guava or Apache Commons library is a good start for a Java project.
 
