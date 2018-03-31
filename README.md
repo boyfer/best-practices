@@ -232,6 +232,7 @@ Contents:
 	- http://www.baeldung.com/exception-handling-for-rest-with-spring
 	- https://lankydanblog.com/2017/09/12/global-exception-handling-with-controlleradvice/
 	- http://www.baeldung.com/global-error-handler-in-a-spring-rest-api
+	- https://stackoverflow.com/questions/43125167/exceptionhandler-with-vnderrors-does-not-handle-errors
 	
 * Rest apis can be documented either by using external tools like swagger (which is one of the most popular) or Spring Rest Docs. Since Spring is our framework for doing most of the work, we will rely on this for now. Below is further reading and Spring Rest Docs resources.  Additionally you can also create documentation by Postman now. Postman looks like it's progressed a lot by the time:
 
