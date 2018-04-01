@@ -379,6 +379,11 @@ All the annotations above are important for the definition of the sequence other
 * Below is a great series on Spring Data Rest in general:
 
 	- https://www.javabullets.com/category/spring-data-rest/
+	
+* An amazing solution to map Java Enum with Postgres Enum by Hibernate. As the author has said "Works like a charm."
+
+	- https://stackoverflow.com/questions/27804069/hibernate-mapping-between-postgresql-enum-and-java-enum
+	- https://vladmihalcea.com/the-best-way-to-map-an-enum-type-with-jpa-and-hibernate/
 
 ## Security
 
