@@ -1,4 +1,4 @@
-# Best Practices - (PostgreSQL / Java / Spring / Hibernate)
+# Best Practice Bookmarks - (PostgreSQL / Java / Spring / Hibernate)
 
 Some best practices that are useful in this stack.
 
