@@ -465,6 +465,13 @@ All the annotations above are important for the definition of the sequence other
 * .jks files should not be stored in source repository.
 
 	- https://security.stackexchange.com/questions/100584/where-should-a-keystore-jks-be-stored-in-a-repository
+	
+* Below articles are helpful on handling login failures and authentication events:
+
+	- https://blog.mafr.de/2017/04/18/spring-boot-logging-failed-logins/
+	- https://stackoverflow.com/questions/49589895/authentication-events-such-as-login-failure-in-spring-security-oauth2-doesnt
+	- https://stackoverflow.com/questions/41076500/eventlistener-for-authenticationsuccessevent-or-interactiveauthenticationsucces
+	- http://www.baeldung.com/spring-security-block-brute-force-authentication-attempts
 
 ## REST
 
