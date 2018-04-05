@@ -180,6 +180,10 @@ Contents:
 	- Service interface => UserService
 	- Service Implementation => AbstractUserService or UserServiceImpl (UserServiceImpl is much more common in Spring world.)
 	- **May need references here.**
+	
+* Throw `IllegalArgumentException` when a parameter is missing.
+
+	- https://stackoverflow.com/questions/2517965/what-exception-to-throw-when-an-important-parameter-dependency-is-missing
 
 ## Spring / Hibernate
 
