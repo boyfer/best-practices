@@ -388,6 +388,10 @@ All the annotations above are important for the definition of the sequence other
 
 	- https://stackoverflow.com/questions/27804069/hibernate-mapping-between-postgresql-enum-and-java-enum
 	- https://vladmihalcea.com/the-best-way-to-map-an-enum-type-with-jpa-and-hibernate/
+	
+* "Use the returned instance for further operations as the save operation might have changed the entity instance completely." For repository classes.
+
+	- https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html#save-S-
 
 ## Security
 
