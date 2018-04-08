@@ -551,6 +551,10 @@ All the annotations above are important for the definition of the sequence other
 	- https://www.techopedia.com/definition/7035/end-to-end-test
 	- https://medium.freecodecamp.org/why-end-to-end-testing-is-important-for-your-team-cb7eb0ec1504
 	- https://testcafe.devexpress.com/ (e2e tool)
+	
+- Use `@TestPropertySource` annotation to override the values in `application.properties`. An example is below:
+
+	- https://stackoverflow.com/questions/32974432/spring-junit-testing-properties-file
 
 ## Git
 
