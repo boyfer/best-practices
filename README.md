@@ -147,7 +147,7 @@ Contents:
 
 * Changing between different java versions:
 
-- https://blogs.oracle.com/pranav/switch-between-different-jdk-versions-in-windows
+	- https://blogs.oracle.com/pranav/switch-between-different-jdk-versions-in-windows
 
 * Packaging by features instead of layers is the common practice:
 
