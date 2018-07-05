@@ -148,6 +148,7 @@ Contents:
 * Changing between different java versions:
 
 	- https://blogs.oracle.com/pranav/switch-between-different-jdk-versions-in-windows
+	- http://makble.com/jdk-8-and-cprogramdataoraclejavajavapath => This is the recent one
 
 * Packaging by features instead of layers is the common practice:
 
