@@ -143,10 +143,10 @@ Contents:
 
 	- https://stackoverflow.com/questions/5881169/what-column-type-length-should-i-use-for-storing-a-bcrypt-hashed-password-in-a-d
 
-* On the char types of postgresql
-```
+* On the char types of postgresql:
+
 There is no performance difference among these three types, apart from increased storage space when using the blank-padded type, and a few extra CPU cycles to check the length when storing into a length-constrained column. While character(n) has performance advantages in some other database systems, there is no such advantage in PostgreSQL; in fact character(n) is usually the slowest of the three because of its additional storage costs. In most situations text or character varying should be used instead.
-```
+
 	- https://www.postgresql.org/docs/current/static/datatype-character.html
 
 ## Java
